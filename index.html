@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- connect style.css -->
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<title>Login Page</title>
+</head>
+<body>
+
+
+<div class="container">
+
+	<!-- <form action=""> -->
+		<div class="form">
+
+		<h1 class="headtext">
+			Login
+		</h1>
+
+		<input type="text" name="" placeholder="Username.." id="username" required>
+		<input type="pass" name="" placeholder="Password.." id="password" required>
+
+		<div class="cont">
+			<div class="success" id="success">You successfully login!</div>
+			<div class="error" id="error">Incorrect username or password!</div>
+			<div class="empty" id="empty">Please input the following!</div>
+		</div>
+
+
+		<button type="submit" onclick="login()">Login</button>
+
+		<a href="">Forgot password?</a>
+		
+	</div>
+	<!-- </form> -->
+	
+</div>
+
+
+</body>
+
+<!-- connect js -->
+<script src="app.js"></script>
+</html>
